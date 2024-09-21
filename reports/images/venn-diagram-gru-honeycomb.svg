@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <style>
+    .circle { fill-opacity: 0.5; stroke: #000; stroke-width: 2; }
+    .label { font-family: Arial, sans-serif; font-size: 14px; }
+    .count { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; }
+  </style>
+  
+  <!-- GRU circle -->
+  <circle class="circle" cx="175" cy="150" r="100" fill="#FF6B6B" />
+  
+  <!-- Honeycomb circle -->
+  <circle class="circle" cx="225" cy="150" r="100" fill="#4ECDC4" />
+  
+  <!-- Labels -->
+  <text x="100" y="70" class="label">GRU</text>
+  <text x="280" y="70" class="label">Honeycomb</text>
+  
+  <!-- Counts -->
+  <text x="130" y="150" class="count">37</text>
+  <text x="200" y="150" class="count">185</text>
+  <text x="270" y="150" class="count">27</text>
+  
+  <!-- Title -->
+  <text x="200" y="280" class="label" text-anchor="middle">Resolved Instances Overlap</text>
+</svg>
